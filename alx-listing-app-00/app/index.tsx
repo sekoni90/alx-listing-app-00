@@ -1,3 +1,4 @@
+
 // pages/index.tsx
 import { PROPERTYLISTINGSAMPLE } from "@/constants";
 import backgroundImage from "@/public/hero-bg.jpg";
@@ -13,8 +14,8 @@ export default function Home() {
         className="relative h-96 bg-cover bg-center flex items-center justify-center"
         style={{ backgroundImage: `url(${backgroundImage.src})` }}
       >
-        <div className="text-center text-white">
-          <h1 className="text-4xl font-bold">Find your favorite place here!</h1>
+        <div className="text-center className="text-center text-white>
+          < h1 className="text-4xl font-bold">Find your favorite place here!</h1>
           <p className="mt-2 text-lg">The best prices for over 2 million properties worldwide.</p>
         </div>
       </div>
@@ -40,4 +41,3 @@ export default function Home() {
     </>
   );
 }
-
